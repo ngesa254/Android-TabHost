@@ -7,14 +7,14 @@ import android.view.MenuItem;
 import android.widget.TabHost;
 
 public class TabHostActivity extends AppCompatActivity {
-    TabHost tabHost;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_host);
 
-        TabHost host = (TabHost)findViewById(R.id.tabHost);
+        TabHost host = findViewById(R.id.tabHost);
         host.setup();
 
         //Tab 1
