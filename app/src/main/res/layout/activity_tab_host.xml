@@ -47,7 +47,7 @@ tools:context="io.droidmarvin.androidtabhost.TabHostActivity">
                 android:id="@+id/tab2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#f70c4b"
+                android:background="#FFA000"
                 android:orientation="vertical">
 
                 <TextView
